@@ -33,7 +33,7 @@ threshold = st.sidebar.slider(
 )
 st.sidebar.write("current threshold: ", threshold)
 
-X_test = pd.read_csv("data/processed/X_test.csv")
+X_test = pd.read_csv("X_test.csv")
 applicant = X_test.iloc[[applicant_index-1]]
 
 # Reads in saved classification model
