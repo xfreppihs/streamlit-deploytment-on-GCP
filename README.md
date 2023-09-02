@@ -47,5 +47,12 @@
 <p>Then run the app</p>
 <pre>streamlit run st-app.py</pre>
 
-## 4.
-
+## 4. Open the port on GCP
+<p>On GCP VM instance, create firewall rule</p>
+<img src="img/Picture8.png" width=600/>
+<img src="img/Picture9.png" width=600/>
+<img src="img/Picture10.png" width=600/>
+<br>
+<p>Set the configuration like below</p>
+<img src="img/Picture11.png" width=600/>
+<p>The app is ready to be visited at {external ip address}:8501</p>
